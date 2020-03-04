@@ -1,5 +1,5 @@
 # Contact Tracing PowerApp for Organization
-Built a Canvas PowerApp app with SharePoint for contact tracing during epidemic situations
+Built a Canvas PowerApp app with SharePoint for contact tracing during epidemic situations. Below is the high level overview of the purpose of this application.
 
 ## Getting Started
 
