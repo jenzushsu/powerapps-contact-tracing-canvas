@@ -1,0 +1,78 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/site-design-script-actions.schema.json",
+    "actions": [
+        {
+            "verb": "createSPList",
+            "listName": "External Check-in list",
+            "templateType": 100,
+            "subactions": [
+                {
+                    "verb": "addSPFieldXml",
+                    "schemaXml": "<Field ID=\"{fa564e0f-0c70-4ab9-b863-0177e6ddd247}\" Type=\"Text\" Name=\"Title\"
+                      DisplayName=\"Title\" Required=\"FALSE\" SourceID=\"http://schemas.microsoft.com/sharepoint/v3\"
+                      StaticName=\"Title\" FromBaseType=\"TRUE\" CustomFormatter=\"\" EnforceUniqueValues=\"FALSE\"
+                      Indexed=\"FALSE\" MaxLength=\"255\" />"
+                },
+                {
+                    "verb": "addSPFieldXml",
+                    "schemaXml": "<Field Type=\"Text\" DisplayName=\"Location Name\" Required=\"FALSE\"
+                      EnforceUniqueValues=\"FALSE\" Indexed=\"FALSE\" MaxLength=\"255\"
+                      ID=\"{cfc90991-4a03-484f-9638-6e519b5627d6}\" StaticName=\"Location\" Name=\"Location\"
+                      CustomFormatter=\"\" />"
+                },
+                {
+                    "verb": "addSPFieldXml",
+                    "schemaXml": "<Field Type=\"Text\" DisplayName=\"Visitor Name\" Required=\"TRUE\"
+                      EnforceUniqueValues=\"FALSE\" Indexed=\"FALSE\" MaxLength=\"255\"
+                      ID=\"{def550d0-ad95-41e6-854e-4befa83d5be1}\" StaticName=\"VisitorName\" Name=\"VisitorName\"
+                      CustomFormatter=\"\" />"
+                },
+                {
+                    "verb": "addSPFieldXml",
+                    "schemaXml": "<Field Type=\"Text\" DisplayName=\"Visitor Company\" Required=\"TRUE\"
+                      EnforceUniqueValues=\"FALSE\" Indexed=\"FALSE\" MaxLength=\"255\"
+                      ID=\"{6bab8808-249f-4126-b30a-8992fdf963e9}\" StaticName=\"VisitorCompany\" Name=\"VisitorCompany\"
+                      CustomFormatter=\"\" />"
+                },
+                {
+                    "verb": "addSPFieldXml",
+                    "schemaXml": "<Field Type=\"Text\" DisplayName=\"Visitor Contact\" Required=\"TRUE\"
+                      EnforceUniqueValues=\"FALSE\" Indexed=\"FALSE\" MaxLength=\"255\"
+                      ID=\"{af4049cc-ed49-4771-9c22-edd428dccdea}\" StaticName=\"VisitorContact\" Name=\"VisitorContact\"
+                      CustomFormatter=\"\" />"
+                },
+                {
+                    "verb": "addSPFieldXml",
+                    "schemaXml": "<Field Type=\"Text\" DisplayName=\"Timestamp\" Required=\"FALSE\"
+                      EnforceUniqueValues=\"FALSE\" Indexed=\"FALSE\" MaxLength=\"255\"
+                      ID=\"{921a60c8-6e19-4d34-a102-848e82c6dd50}\" StaticName=\"Timestamp\" Name=\"Timestamp\" />"
+                },
+                {
+                    "verb": "addSPFieldXml",
+                    "schemaXml": "<Field Type=\"Text\" DisplayName=\"Host Email\" Required=\"FALSE\"
+                      EnforceUniqueValues=\"FALSE\" Indexed=\"FALSE\" MaxLength=\"255\"
+                      ID=\"{a825e5b3-fd5c-4d9b-95dd-9968cf6b9704}\" StaticName=\"HostEmail\" Name=\"HostEmail\"
+                      CustomFormatter=\"\" />"
+                },
+                {
+                    "verb": "addSPView",
+                    "name": "All Items",
+                    "viewFields": [
+                        "Created",
+                        "Author",
+                        "HostEmail",
+                        "Location",
+                        "VisitorName",
+                        "VisitorCompany",
+                        "VisitorContact",
+                        "Timestamp"
+                    ],
+                    "query": "<OrderBy><FieldRef Name=\"Created\" /></OrderBy>",
+                    "rowLimit": 30,
+                    "isPaged": true,
+                    "makeDefault": true
+                }
+            ]
+        }
+    ]
+}
