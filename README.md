@@ -6,7 +6,8 @@ Built a Canvas PowerApp app with SharePoint for contact tracing during epidemic 
 These instructions will get you a copy of the project up and running in your PowerApps Environment. See deployment for notes on how to deploy and create connections for the relevant datasources for this application.
 
 ## Prerequisite
-1. Office 365 Licenses. Please refer to this [link](https://go.microsoft.com/fwlink/?linkid=2085130) on the qualifying licenses to use PowerApps from Office 365 licenses.
+1. Office 365 Licenses - Please refer to this [link](https://go.microsoft.com/fwlink/?linkid=2085130) on the qualifying licenses to use PowerApps from Office 365 licenses.
 2. SharePoint List to capture the information. See SharePoint List creation below on how to create the list.
+3. QR Code Generator - You can easily search for a free QR Code generator online. [Example](https://www.the-qrcode-generator.com/) 
 
 ## Deployment
