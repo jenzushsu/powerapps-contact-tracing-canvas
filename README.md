@@ -7,5 +7,7 @@ These instructions will get you a copy of the project up and running in your Pow
 
 ## Prerequisite
 
-What are the neccessary licenses you need in order to deploy and run this canvas app
+You will need existing Office 365 Licenses. Below are the Qualifying licenses from the Licensing Guide.
+
+
 
