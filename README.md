@@ -13,9 +13,22 @@ The application flows as illustrated for the different scenarios shown in the pr
 
 These instructions will get you a copy of the project up and running in your PowerApps Environment. See deployment for notes on how to deploy and create connections for the relevant datasources for this application.
 
-## Prerequisite
+## Prerequisites
+What licenses you need and things to install to run this sample PowerApp. 
+### Licensing
 1. Office 365 Licenses - Please refer to this [link](https://go.microsoft.com/fwlink/?linkid=2085130) on the qualifying licenses to use PowerApps from Office 365 licenses.
-2. SharePoint List to capture the information. See depolyment for notes on the list creation.
-3. QR Code Generator - You can easily search for a free QR Code generator online. [Example](https://www.the-qrcode-generator.com/) 
+2. QR Code Generator - You can easily search for a free QR Code generator online. [Example](https://www.the-qrcode-generator.com/) 
+### Windows PowerShell or SharePoint Online Management Shell
+#### Microsoft SharePoint Online Services Module for Windows PowerShell
+If you are using PowerShell, check that you have the [Microsoft SharePoint Online Services Module for Windows PowerShell](https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell/16.0.19814.12000).  You can first check if you have already installed SharePoint Online Management Shell by running the following command in administrative mode in PowerShell.
+```
+PS> Get-Module -Name Microsoft.Online.SharePoint.PowerShell -ListAvailable | Select Name,Version
+```
+If your operating system is using PowerShell 5 or newer, you can install Sharepoint Online Management Shell also by running following command in administrative mode.
+```
+PS> Install-Module -Name Microsoft.Online.SharePoint.PowerShell
+```
+#### SharePoint Online Management Shell
+If you are using SharePoint Online Management Shell - Download and install the latest [SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251). If you already have a previous version installed, uninstall it first and then install the latest version.
 
 ## Deployment
