@@ -41,3 +41,4 @@ Please follow the **sequence** of this deployment guide - Do not skip any steps.
 ### 2. Create the Custom SharePoint Team Site for Contact Tracing purposes
 ### 3. Import the PowerApps project to your PowerApps Environment
 ### 4. Ensure the necessary connections configured properly
+### 5. Create QR Code for location
