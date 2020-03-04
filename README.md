@@ -7,6 +7,8 @@ Below is the high level process overview of the purpose of this application.
 
 The application flows as illustrated for the different scenarios shown in the process flow.
 
+![](misc/Contact%20App%20Flow%20Overview.png)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running in your PowerApps Environment. See deployment for notes on how to deploy and create connections for the relevant datasources for this application.
