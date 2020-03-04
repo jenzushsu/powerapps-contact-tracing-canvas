@@ -29,6 +29,8 @@ If your operating system is using PowerShell 5 or newer, you can install Sharepo
 PS> Install-Module -Name Microsoft.Online.SharePoint.PowerShell
 ```
 #### SharePoint Online Management Shell
-If you are using SharePoint Online Management Shell - Download and install the latest [SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251). If you already have a previous version installed, uninstall it first and then install the latest version.
+If you are using SharePoint Online Management Shell, download and install the latest [SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251). If you already have a previous version installed, uninstall it first and then install the latest version.
+
+For the provided PS script, it is using a username and password to connect to SharePoint. If your organziation is using Multi-Factor Authentication (MFA), refer to this [link](https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps#to-connect-with-multifactor-authentication-mfa) and modify the script accordingly.
 
 ## Deployment
