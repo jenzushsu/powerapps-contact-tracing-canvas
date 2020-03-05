@@ -5,7 +5,7 @@ This scenario is adapted from the Medium Post - [Building Contact Tracing (Check
 
 Below is a high level walkthrough of this contact tracing application:
 
-[![](http://img.youtube.com/vi/D5FepxLDfFw/0.jpg)](http://www.youtube.com/watch?v=D5FepxLDfFw "")
+[![](http://img.youtube.com/vi/D5FepxLDfFw/0.jpg)](http://www.youtube.com/watch?v=D5FepxLDfFw"")
 
 Below is the high level process overview of the purpose of this application:
 
