@@ -84,6 +84,14 @@ For this Contact Tracing App, there are 2 custom SharePoint Lists designed to ca
 5. Make sure that the 2 custom SharePoint Lists - **Check-in List** and **External Check-in List** are created in this Team Site. 
 
 ### Import the PowerApps project to your PowerApps Environment
+1. Download the PowerApp package from the [powerapp](powerapps/) folder to your local machine.
+2. Login to [PowerApps](https://make.powerapps.com/home) and select the environment for this app.
+3. Follow the [instructions](https://powerapps.microsoft.com/en-us/blog/powerapps-packaging/) on how to import the package.
+4. Click "Import" after the package upload is completed. Open the new imported app.
+5. In PowerApps Studio, expand the left pane and select "Data sources". Under Connectors, you should see a SharePoint Connection which may have been established previously or upon opening this app. Click on this connection as shown below.
 
+![](misc/powerapp-studio-spo-connection.png)
+
+6. 
 ### Ensure the necessary connections configured properly
 ### Create QR Code for location
