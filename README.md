@@ -99,7 +99,7 @@ For this Contact Tracing App, there are 2 custom SharePoint Lists designed to ca
 ![](misc/powerapps-studio-select-spolist.png)
 
 7. Save this project. Test the app to make sure that the information can be captured in SharePoint Lists.
-8. Once tested, please publish the app and share with everyone in the organization.
+8. Once tested, publish the app and share with everyone in the organization.
 
 ![](misc/share.png)
 
