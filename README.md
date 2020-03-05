@@ -3,11 +3,15 @@ Contoso Organization would want their employee to log their whereabouts in the o
 
 This scenario is adapted from the Medium Post - [Building Contact Tracing (Check-in) Canvas App using Power Apps](https://medium.com/@jenzushsu/building-contact-tracing-check-in-canvas-app-using-power-apps-5b273956de33).
 
-Below is the high level process overview of the purpose of this application.
+Below is a high level walkthrough of this contact tracing application:
+
+[![](http://img.youtube.com/vi/D5FepxLDfFw/0.jpg)](http://www.youtube.com/watch?v=D5FepxLDfFw "")
+
+Below is the high level process overview of the purpose of this application:
 
 ![](misc/Process%20Flow.png)
 
-The application flows as illustrated for the different scenarios shown in the process flow.
+The application flows as illustrated for the different scenarios shown in the process flow:
 
 ![](misc/Contact%20App%20Flow%20Overview.png)
 
