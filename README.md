@@ -1,6 +1,8 @@
 # Contact Tracing Canvas PowerApp
 Contoso Organization would want their employee to log their whereabouts in the organization for the purpose of contact tracing in an event of a potential epidemics case. In addition, the employee would also need to get their visitors to provide their details as well when they are visiting. QR codes will provided for every known location within the organization. Employee will need to use an app to scan the QR code and check in. 
 
+This scenario is adapted from the Medium Post - [Building Contact Tracing (Check-in) Canvas App using Power Apps](https://medium.com/@jenzushsu/building-contact-tracing-check-in-canvas-app-using-power-apps-5b273956de33)
+
 Below is the high level process overview of the purpose of this application.
 
 ![](misc/Process%20Flow.png)
@@ -100,3 +102,7 @@ For this Contact Tracing App, there are 2 custom SharePoint Lists designed to ca
 
 ### Create QR Code for location
 The Barcode Scanner for this PowerApps only take in a plain text - representing the location in the organization. You can create a QR Code to embed a simple text - "Meeting Room 1". If you need any logic to parse the scanned value from QR code, you can change the logic in the onScan property of the barcode scanner component located in HomeScreen.
+
+## Author
+* **Jenzus Hsu** - [jenzushsu](https://github.com/jenzushsu)
+
