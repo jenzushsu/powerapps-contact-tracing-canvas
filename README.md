@@ -23,7 +23,8 @@ These instructions will get you a copy of the project up and running in your Pow
 What licenses you need and things to install to run this sample PowerApp. 
 ### Licensing
 1. Office 365 Licenses - Please refer to this [link](https://go.microsoft.com/fwlink/?linkid=2085130) on the qualifying licenses to use PowerApps from Office 365 licenses.
-2. QR Code Generator - You can easily search for a free QR Code generator online. [Example](https://www.the-qrcode-generator.com/) 
+2. QR Code Generator - You can easily search for a free QR Code generator online. Example: [www.the-qr-code-generator.com](https://www.the-qrcode-generator.com/). 
+
 ### Administrative Level 
 Please ensure that you have the right administrative rights to perform the following deployment tasks below.
 ### Windows PowerShell or SharePoint Online Management Shell
