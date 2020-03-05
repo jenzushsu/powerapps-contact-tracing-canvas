@@ -37,7 +37,7 @@ For the provided PS script, it is using a username and password to connect to Sh
 
 ## Deployment
 Please follow the **sequence** of this deployment guide - Do not skip any steps.
-### 1. Add Custom SharePoint Site Script for SharePoint Team Siite to SharePoint Online Tenant
+### Add Custom SharePoint Site Script for SharePoint Team Siite to SharePoint Online Tenant
 
 #### Site Design and Site Script crash course
 Site design is basically a template which will be selected while creating the site and it takes care of executing the custom configurations (actions) mentioned in the site scripts. Simply, it's a pre-defined actions that get executed to a site after the site has been created. I'm using Site Design to add the desired lists with the desired columns to capture the information for this Canvas App. 
@@ -69,7 +69,7 @@ For this Contact Tracing App, there are 2 custom SharePoint Lists designed to ca
 3. Login to SharePoint Online, click on "+ Create Site" and select "Team Site".
 4. Under "Choose a design" option set, you should see "Contact Tracing Team Site Template" 
 
-### 2. Create the Custom SharePoint Team Site for Contact Tracing
+### Create the Custom SharePoint Team Site for Contact Tracing
 #### Steps to create Custom Team Site in SharePoint Online
 1. Login to SharePoint Online, click on "+ Create Site" and select "Team Site".
 2. Under "Choose a design" option set, select "Contact Tracing Team Site Template".
@@ -83,7 +83,7 @@ For this Contact Tracing App, there are 2 custom SharePoint Lists designed to ca
 
 5. Make sure that the 2 custom SharePoint Lists - **Check-in List** and **External Check-in List** are created in this Team Site. 
 
-### 3. Import the PowerApps project to your PowerApps Environment
+### Import the PowerApps project to your PowerApps Environment
 
-### 4. Ensure the necessary connections configured properly
-### 5. Create QR Code for location
+### Ensure the necessary connections configured properly
+### Create QR Code for location
