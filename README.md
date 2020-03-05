@@ -37,7 +37,35 @@ For the provided PS script, it is using a username and password to connect to Sh
 
 ## Deployment
 Please follow the **sequence** of this deployment guide - Do not skip any steps.
-### 1. Apply a Custom Site Design to SharePoint Online
+### 1. Add Custom SharePoint Site Script for SharePoint Team Siite to SharePoint Online Tenant
+
+#### Site Design and Site Script crash course
+Site design is basically a template which will be selected while creating the site and it takes care of executing the custom configurations (actions) mentioned in the site scripts. Simply, it's a pre-defined actions that get executed to a site after the site has been created. I'm using Site Design to add the desired lists with the desired columns to capture the information for this Canvas App. 
+
+A Site Design is like a container for Site Scripts. A Site Script is a JSON string that contains the actions to be executed on the site. You can attach one or more site scripts to a site design, and all the actions defined in the scripts are executed. 
+
+For this Contact Tracing App, there are 2 custom SharePoint Lists designed to capture information for internal staff and external visitors. I have created 2 Site Scripts for these SharePoint Lists found in [json](json) folder. Below is a sample of the JSON schema for Site Scripts used for the SPO lists:
+
+```
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/site-design-script-actions.schema.json",
+    "actions": [
+        {
+            "verb": "createSPList",
+            "listName": "Check-in list",
+            "templateType": 100,
+            "subactions": [
+                {
+                   //all the subactions 
+                }
+            ]
+        }
+    ]
+}
+```
+#### Steps to depoly the Site Design
+1. Download the Site Scripts from [json](json) folder to your local computer.
+
 ### 2. Create the Custom SharePoint Team Site for Contact Tracing purposes
 ### 3. Import the PowerApps project to your PowerApps Environment
 ### 4. Ensure the necessary connections configured properly
