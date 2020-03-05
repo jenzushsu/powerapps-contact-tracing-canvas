@@ -64,8 +64,20 @@ For this Contact Tracing App, there are 2 custom SharePoint Lists designed to ca
 }
 ```
 #### Steps to depoly the Site Design
-1. Download the Site Scripts from [json](json) folder to your local computer.
+1. Download the Site Scripts from [json](json) folder to your local machine.
+2. Download the [ContactTracingTeamSiteSPOSiteDesignScript.ps1](ps/ContactTracingTeamSiteSPOSiteDesignScript.ps1) and open PowerShell on your local machine. Look throught script and enter the required value to execute the script.
+3. Login to SharePoint Online, click on "+ Create Site" and select "Team Site".
+4. Under "Choose a design" option set, you should see "Contact Tracing Team Site Template" and select.
+5. Enter the Team Site information. Select "Public" for Privacy Settings as shown below. Follow through the rest of the steps and wait for the Team Site to be created.
 
+![](misc/Team%20Site%20Creation%20with%20custom%20site%20design.png)
+
+6. You can view the progress of the site design by clicking "View Progress" on top of the screen during Team Site creation.
+
+![](misc/custom-script-in-progress.PNG)
+
+
+7. Enter the new Team Site and make sure that the 2 custom SharePoint Lists - Check-in List and External Check-in List are created. 
 ### 2. Create the Custom SharePoint Team Site for Contact Tracing purposes
 ### 3. Import the PowerApps project to your PowerApps Environment
 ### 4. Ensure the necessary connections configured properly
