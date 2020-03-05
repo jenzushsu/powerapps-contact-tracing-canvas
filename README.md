@@ -99,6 +99,9 @@ For this Contact Tracing App, there are 2 custom SharePoint Lists designed to ca
 ![](misc/powerapps-studio-select-spolist.png)
 
 7. Save this project. Test the app to make sure that the information can be captured in SharePoint Lists.
+8. Once tested, please publish the app and share with everyone in the organization.
+
+![](misc/share.png)
 
 ### Create QR Code for location
 The Barcode Scanner for this PowerApps only take in a plain text - representing the location in the organization. You can create a QR Code to embed a simple text - "Meeting Room 1". If you need any logic to parse the scanned value from QR code, you can change the logic in the onScan property of the barcode scanner component located in HomeScreen.
