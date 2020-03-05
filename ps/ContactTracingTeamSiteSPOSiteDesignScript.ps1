@@ -14,7 +14,7 @@ $externalListSiteScript = Get-Content '<<Path>>\external-check-in-list.json' -Ra
 
 #Variable for the new Site Design
 $webTemplate = "64" #64 = Team Site, 68 = Communication Site, 1 = Groupless Team Site
-$siteScriptTitle = "Custom Team Site Script - Contact Tracing"
+$siteScriptTitle = "Contact Tracing Team Site Template"
 $siteDesignDescription = "Custom team site with 2 SPO Lists for Contact Tracing PowerApps"
 $siteLists = ($internalList.Id, $externalList.Id)
 
