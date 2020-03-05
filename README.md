@@ -65,11 +65,21 @@ For this Contact Tracing App, there are 2 custom SharePoint Lists designed to ca
     ]
 }
 ```
-#### Steps to depoly the Site Design
+#### Steps to deploy the Site Design
 1. Download the Site Scripts from [json](json) folder to your local machine.
-2. Download the [ContactTracingTeamSiteSPOSiteDesignScript.ps1](ps/ContactTracingTeamSiteSPOSiteDesignScript.ps1) and open PowerShell on your local machine. Look throught script and enter the required value to execute the script.
-3. Login to SharePoint Online, click on "+ Create Site" and select "Team Site".
-4. Under "Choose a design" option set, you should see "Contact Tracing Team Site Template" 
+2. Download the [ContactTracingTeamSiteSPOSiteDesignScript.ps1](ps/ContactTracingTeamSiteSPOSiteDesignScript.ps1) and open PowerShell on your local machine.
+3. Check if your local machine is permitted to execute unsigned scripts from other users. Start PowerShell with the Run as Administrator option and then use the following command to find the effective execution policy on your local machine:
+```
+PS> Get-ExecutionPolicy
+AllSigned
+```
+If the return value is ```AllSigned```,  use the following command to change the execution policy on the computer to RemoteSigned:
+```
+PS> Set-ExecutionPolicy RemoteSigned
+```
+4. Change the relevant variable and execute the script.
+5. Login to SharePoint Online, click on "+ Create Site" and select "Team Site".
+6. Under "Choose a design" option set, you should see "Contact Tracing Team Site Template" 
 
 ### Create the Custom SharePoint Team Site for Contact Tracing
 #### Steps to create Custom Team Site in SharePoint Online
