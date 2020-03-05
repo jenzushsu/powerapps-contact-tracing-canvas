@@ -118,7 +118,7 @@ PS> Set-ExecutionPolicy RemoteSigned
 ![](misc/share.png)
 
 ### Create QR Code for location
-The Barcode Scanner for this PowerApps only take in a plain text - representing the location in the organization. You can create a QR Code to embed a simple text - "Meeting Room 1". If you need any logic to parse the scanned value from QR code, you can change the logic in the onScan property of the barcode scanner component located in HomeScreen.
+The Barcode Scanner for this PowerApps only take in a plain text - representing the location in the organization. You can create a QR Code to embed a simple text - "Meeting Room 1". If you need any logic to parse the scanned value from QR code, you can change the logic in the **onScan** property of the barcode scanner component located in **HomeScreen**.
 
 ## Author
 * **Jenzus Hsu** - [jenzushsu](https://github.com/jenzushsu)
