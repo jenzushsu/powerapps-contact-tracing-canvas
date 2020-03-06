@@ -1,4 +1,4 @@
-# Contact Tracing Canvas PowerApp
+# Contact Tracing Canvas App using Microsoft Power Apps
 Contoso Organization would want their employee to log their whereabouts in the organization for the purpose of contact tracing in an event of a potential epidemics case. In addition, the employee would also need to get their visitors to provide their details as well when they are visiting. QR codes will provided for every known location within the organization. Employee will need to use an app to scan the QR code and check in. 
 
 This scenario is adapted from the Medium Post - [Building Contact Tracing (Check-in) Canvas App using Power Apps](https://medium.com/@jenzushsu/building-contact-tracing-check-in-canvas-app-using-power-apps-5b273956de33).
@@ -17,12 +17,12 @@ The application flows as illustrated for the different scenarios shown in the pr
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running in your PowerApps Environment. See deployment for notes on how to deploy and create connections for the relevant datasources for this application.
+These instructions will get you a copy of the project up and running in your Power Apps Environment. See deployment for notes on how to deploy and create connections for the relevant datasources for this application.
 
 ## Prerequisites
 What licenses you need and things to install to run this sample PowerApp. 
 ### Licensing
-1. Office 365 Licenses - Please refer to this [link](https://go.microsoft.com/fwlink/?linkid=2085130) on the qualifying licenses to use PowerApps from Office 365 licenses.
+1. Office 365 Licenses - Please refer to this [link](https://go.microsoft.com/fwlink/?linkid=2085130) on the qualifying licenses to use Power Apps from Office 365 licenses.
 2. QR Code Generator - You can easily search for a free QR Code generator online. Example: [www.the-qr-code-generator.com](https://www.the-qrcode-generator.com/). 
 
 ### Administrative Level 
@@ -33,7 +33,7 @@ If you are using PowerShell, check that you have the [Microsoft SharePoint Onlin
 ```
 PS> Get-Module -Name Microsoft.Online.SharePoint.PowerShell -ListAvailable | Select Name,Version
 ```
-If your operating system is using PowerShell 5 or newer, you can install Sharepoint Online Management Shell also by running following command in administrative mode.
+If your operating system is using PowerShell 5 or newer, you can install SharePoint Online Management Shell also by running following command in administrative mode.
 ```
 PS> Install-Module -Name Microsoft.Online.SharePoint.PowerShell
 ```
@@ -102,10 +102,10 @@ PS> Set-ExecutionPolicy RemoteSigned
 
 ### Import the PowerApps project to your PowerApps Environment
 1. Download the PowerApp package from the [powerapp](powerapps/) folder to your local machine.
-2. Login to [PowerApps](https://make.powerapps.com/home) and select the environment for this app.
+2. Login to [Power Apps](https://make.powerapps.com/home) and select the environment for this app.
 3. Follow the [instructions](https://powerapps.microsoft.com/en-us/blog/powerapps-packaging/) on how to import the package.
 4. Click "Import" after the package upload is completed. Open the new imported app.
-5. In PowerApps Studio, expand the left pane and select "Data sources". Under Connectors, you should see a SharePoint Connection which may have been established previously or upon opening this app. Click on this connection as shown below.
+5. In Power Apps Studio, expand the left pane and select "Data sources". Under Connectors, you should see a SharePoint Connection which may have been established previously or upon opening this app. Click on this connection as shown below.
 
 ![](misc/powerapp-studio-spo-connection.png)
 
