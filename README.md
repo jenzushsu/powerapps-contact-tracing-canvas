@@ -124,6 +124,9 @@ The Barcode Scanner for this PowerApps only take in a plain text - representing 
 ## Author
 * **Jenzus Hsu** - [jenzushsu](https://github.com/jenzushsu)
 
+# Support
+ If there are issues related to the solution implementation itself, please [report bugs here](https://github.com/jenzushsu/powerapps-contact-tracing-canvas/issues/new?assignees=jenzushsu&labels=contacttracingapp&template=bug_report.md&title=%5BBUG%5D%3A+issue+title).
+
 ## Disclaimer
-This app is a sample and may be used with Microsoft Power Apps and SharePoint Online. You bear the sole risk and responsibility for any use of this app. The innovation and views expressed here are those of my own and do not necessarily state or reflect those of Microsoft Singapore or Microsoft Corporation.
+*This app is a sample and may be used with Microsoft Power Apps and SharePoint Online. You bear the sole risk and responsibility for any use of this app. The innovation and views expressed here are those of my own and do not necessarily state or reflect those of Microsoft Singapore or Microsoft Corporation.
 
