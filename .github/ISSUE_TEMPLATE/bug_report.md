@@ -1,8 +1,8 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
+name: "[powerapps-contact-tracing-canvas]Bug report"
+about: Create a report to help us improve the Contact Tracing App
+title: '[BUG]: issue title'
+labels: 'contacttracingapp'
 assignees: ''
 
 ---
