@@ -124,3 +124,6 @@ The Barcode Scanner for this PowerApps only take in a plain text - representing 
 ## Author
 * **Jenzus Hsu** - [jenzushsu](https://github.com/jenzushsu)
 
+## Disclaimer
+This app is a sample and may be used with Microsoft Power Apps and SharePoint Online. You bear the sole risk and responsibility for any use of this app. The innovation and views expressed here are those of my own and do not necessarily state or reflect those of Microsoft Singapore or Microsoft Corporation.
+
