@@ -44,7 +44,7 @@ For the provided PS script, it is using a username and password to connect to Sh
 
 ## Deployment
 Please follow the **sequence** of this deployment guide - Do not skip any steps.
-### Add Custom SharePoint Site Script for SharePoint Team Siite to SharePoint Online Tenant
+### Add Custom SharePoint Site Script for SharePoint Team Site to SharePoint Online Tenant
 
 #### Site Design and Site Script crash course
 Site design is basically a template which will be selected while creating the site and it takes care of executing the custom configurations (actions) mentioned in the site scripts. Simply, it's a pre-defined actions that get executed to a site after the site has been created. I'm using Site Design to add the desired lists with the desired columns to capture the information for this Canvas App. 
